@@ -48,6 +48,7 @@ os.environ["JAVA_HOME"] = "your_java_path"  # e.g. "/usr/lib/jvm/java-11-openjdk
 pytesseract.pytesseract.tesseract_cmd = r"your_tesseract_path"  # e.g. "/usr/bin/tesseract"
 ```
 
+```mermaid
 graph TD
     A[PDF Upload] --> B[Text Extraction]
     A --> C[Table Extraction]
@@ -60,3 +61,4 @@ graph TD
     G --> I[Cross-System Check]
     H --> J[Results Dashboard]
     I --> J
+```
